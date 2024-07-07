@@ -81,7 +81,7 @@ export default function About() {
             </div>
             <p className=" text-sm sm:text-[18px] font-normal">
               Hello there! My name is
-              <span className="text-gradient">Jacob Jones</span> . I am a web
+              <span className="text-gradient">Emmanuel Kalu</span> . I am a web
               designer & developer, and I`&apos;`m very passionate and dedicated
               to my work.
             </p>
