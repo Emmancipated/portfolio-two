@@ -112,7 +112,7 @@ export default function About() {
 
       <div className="pl-4 sm:pl-0 pr-4 sm:pr-8 mt-10">
         <div className=" bg-gr lg:flex pl-4 sm:pl-8 py-[40px] pr-4 sm:pr-8 gap-x-4">
-          <div className="max-w-[320px]">
+          <div className="max-w-[320px] xl:min-w-[400px]">
             <h4 className=" text-white font-semibold text-[18px] italic">
               Experience
             </h4>
@@ -120,9 +120,8 @@ export default function About() {
               My experience
             </h4>
             <p className="  sm:text-[18px] font-normal text-white">
-              Hello there! My name is Jacob Jones. I am a web designer &
-              developer, and I`&apos;`m very passionate and dedicated to my
-              work.
+              Hello there! My name is Emmanuel Kalu. I am a web designer &
+              developer, and I&apos;m very passionate and dedicated to my work.
             </p>
             <button className=" text-[18px] font-medium flex bg-[#141313] items-center justify-center text-white py-2 px-4 my-6 gap-x-2">
               Let&apos;s talk with me
