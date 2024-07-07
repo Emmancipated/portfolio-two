@@ -80,10 +80,10 @@ export default function About() {
               </p>
             </div>
             <p className=" text-sm sm:text-[18px] font-normal">
-              Hello there! My name is{" "}
+              Hello there! My name is
               <span className="text-gradient">Jacob Jones</span> . I am a web
-              designer & developer, and I'm very passionate and dedicated to my
-              work.
+              designer & developer, and I`&apos;`m very passionate and dedicated
+              to my work.
             </p>
           </div>
 
@@ -121,10 +121,11 @@ export default function About() {
             </h4>
             <p className="  sm:text-[18px] font-normal text-white">
               Hello there! My name is Jacob Jones. I am a web designer &
-              developer, and I'm very passionate and dedicated to my work.
+              developer, and I`&apos;`m very passionate and dedicated to my
+              work.
             </p>
             <button className=" text-[18px] font-medium flex bg-[#141313] items-center justify-center text-white py-2 px-4 my-6 gap-x-2">
-              Let's talk with me
+              Let`&apos;`s talk with me
               <Image src={up} alt="arrow" />
             </button>
           </div>
