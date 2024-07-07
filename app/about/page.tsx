@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className=" bg-white-600 flex-1 h-full pt-4 sm:pt-8 sm:overflow-y-auto relative">
       <div className="px-4 sm:px-8 lg:flex">
-        <div className="min-w-[320px]">
+        <div className="min-w-[320px] xl:min-w-[400px]">
           <h4 className=" text-[18px] font-semibold italic">
             Nice to meet you!
           </h4>
@@ -41,7 +41,7 @@ export default function About() {
           </button>
         </div>
 
-        <div className=" sm:grid lg:block grid-cols-2 self-end gap-y-4">
+        <div className=" sm:grid lg:block xl:grid grid-cols-2 self-end xl:self-auto gap-y-4">
           <div className=" flex gap-x-1 items-center mt-1 sm:mt-0">
             <Image src={phone} alt="phone" />
             <p className=" text-sm lg:text-[18px] font-bold italic">
@@ -125,7 +125,7 @@ export default function About() {
               work.
             </p>
             <button className=" text-[18px] font-medium flex bg-[#141313] items-center justify-center text-white py-2 px-4 my-6 gap-x-2">
-              Let`&apos;`s talk with me
+              Let&apos;s talk with me
               <Image src={up} alt="arrow" />
             </button>
           </div>

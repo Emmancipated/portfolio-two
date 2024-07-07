@@ -12,7 +12,7 @@ import bball_white from "@/public/bball-white.svg";
 export default function Home() {
   return (
     <div className=" bg-white-600 flex-1 h-full p-4 sm:p-8 sm:overflow-y-auto lg:flex">
-      <div className=" lg:flex justify-center items-center my-auto">
+      <div className=" lg:flex justify-center items-center my-auto w-full">
         <div className=" relative text-[#141313]">
           <h1 className=" text-[#141313] text-[30px] sm:text-[60px] leading-[32px] sm:leading-[62px] uppercase">
             My name <br />
@@ -33,7 +33,7 @@ export default function Home() {
             </p>
 
             <button className=" text-[18px] font-medium flex bg-[#141313] items-center justify-center text-white py-2 px-4 my-6 gap-x-2 ">
-              Let`&apos;`s talk with me
+              Let&apos;s talk with me
               <Image src={up} alt="arrow" />
             </button>
 
