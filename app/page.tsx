@@ -33,7 +33,7 @@ export default function Home() {
             </p>
 
             <button className=" text-[18px] font-medium flex bg-[#141313] items-center justify-center text-white py-2 px-4 my-6 gap-x-2 ">
-              Let’s talk with me
+              Let's talk with me
               <Image src={up} alt="arrow" />
             </button>
 
