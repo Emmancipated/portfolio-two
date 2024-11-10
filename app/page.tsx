@@ -9,7 +9,51 @@ import google_white from "@/public/google-white.svg";
 import insta_white from "@/public/Instagram-white.svg";
 import bball_white from "@/public/bball-white.svg";
 
+// import "react-phone-number-input/style.css";
+// import PhoneInput from "react-phone-number-input";
+
+import { PhoneInput, PhoneInputRefType } from "react-international-phone";
+import "react-international-phone/style.css";
+import { useEffect, useRef, useState } from "react";
+import TestPhone from "./components/Phone";
+
 export default function Home() {
+  const [phoneValue, setPhoneValue] = useState("");
+  const [error, setError] = useState();
+  const [value, setValue] = useState();
+
+  const [phonenum, setPhonenum] = useState();
+  console.log(phonenum);
+
+  const testSom = (e: any) => {
+    console.log(e);
+    // setPhonenum((prevPhonenum) => prevPhonenum + e);
+    setPhonenum(e);
+  };
+
+  // const CustomPhoneInput = ({
+  //   label,
+  //   value,
+  //   setValue,
+  //   error,
+  // }: {
+  //   label: string;
+  //   value?: any;
+  //   setValue?: (value?: any | undefined) => void;
+  //   error: string;
+  // }) => {
+  //   return (
+  //     <div>
+  //       {label && <label className="">{label}</label>}
+  //       <PhoneInput
+  //         defaultCountry="ua"
+  //         value={phone}
+  //         onChange={(phone) => setPhonenum(phone)}
+  //       />
+  //       {error && <div className="text-red-500">{error}</div>}
+  //     </div>
+  //   );
+  // };
   return (
     <div className=" bg-white-600 flex-1 h-full p-4 sm:p-8 sm:overflow-y-auto lg:flex">
       <div className=" lg:flex justify-center items-center my-auto w-full">
