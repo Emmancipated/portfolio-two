@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "app.portfolio-two-two.vercel.handiehubexpo",
+      "package_name": "com.emmanuelck.handiehubexpo",
       "sha256_cert_fingerprints": [
         "CD:6F:9B:F8:27:7B:A6:86:4A:06:BB:96:BF:7E:90:A3:03:11:3D:FD:F0:3B:7B:FD:97:16:B4:A3:3A:7A:D0:F8"
       ]
