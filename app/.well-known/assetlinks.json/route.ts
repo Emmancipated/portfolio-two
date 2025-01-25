@@ -7,7 +7,7 @@ export async function GET() {
       target: {
         namespace: "android_app",
         package_name: "com.emmanuel_ck.handiehubexpo",
-        sha256_cert_fingerprints: [process.env.FINGERPRINT_SHA256],
+        sha256_cert_fingerprints: [process.env.NEXT_PUBLIC_FINGERPRINT_SHA256],
       },
     },
   ];
